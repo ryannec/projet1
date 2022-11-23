@@ -39,12 +39,49 @@ button {
     border: solid white;
 
 }
+
 /*********************FIN HEADER MOBIL**************************/
+/*********************STADE MOBIL*******************************/
+.titre {
+    background-image:linear-gradient(rgba(255, 255, 255, 0.6), rgba(255,255,255,0.6)), url(/assets/bgGrisMetal.jpg);
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3% 20% 0% 20%;
+}
+.titre-page {
+    background-image:linear-gradient(rgba(255, 255, 255, 0.6), rgba(255,255,255,0.6)), url(/assets/bgGrisMetal.jpg);
+    opacity: 1;
+    color: #0993CD;
+    padding: 0% 0% 0% 0%;
+}
+.container ul {
+    background-color: #4E0101;
+    margin: 5% 5% 2% 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.container ul li {
+    background-image:linear-gradient(rgba(255, 255, 255, 0.6), rgba(255,255,255,0.6)), url(/assets/bgGrisMetal.jpg);
+    opacity: 1;
+    margin-top: 5%;
+    width: 70%;
+    margin: 3% 3% 3% 3%;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 3% 5% 3.5% 5%;
+}   
+/****************************ACCUEIL MOBIL**********************/
+
 .grandlogo {
 
     width: 100%;
     height: auto;
 }
+/***************************GROUPE MOBIL************************/
 .main {
     display: flex ;
     flex-direction: column;
