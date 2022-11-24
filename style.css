@@ -201,8 +201,11 @@ align-items: center ;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-weight: bold;
-    
+    color: black;
+}
+.container-calendrier ul li a {
+    font-weight:900;
+    color: black;
 }
 /*********************CALENDRIER GROUPE***********************/
 
@@ -214,6 +217,7 @@ align-items: center ;
     justify-content: space-around;
     height: 70vh;
     margin: 2% 5% 2% 5%;
+    
 }
 .calendrier-groupe ul li{
     background-image:linear-gradient(rgba(255, 255, 255, 0.6), rgba(255,255,255,0.6)), url(/assets/bgGrisMetal.jpg);
@@ -223,10 +227,6 @@ align-items: center ;
     padding: 2% 2% 2% 2%;
     text-align: center;
     width: 80%;
-    
-
-
- 
 }
 /********************FOOTER MOBIL*******************************/
 footer {
