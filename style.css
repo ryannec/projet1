@@ -24,21 +24,20 @@ header {
     align-items: center;
 }
 .minilogo {
-    align-self: center;
+    
     margin-right: 35%;
 
 }
-.trait {
-    width: 30px;
-    height: 30px;
-}
-button {
+ button {
     
     border-radius: 50%;
     width: 54px;
     height: 54px;
-    margin-left: 23px;
+    margin-left: 7%;
     border: solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 
@@ -82,6 +81,9 @@ button {
     padding: 3% 5% 4% 5%;
 
 }
+.container-stade ul li a {
+    color: black;
+}
 /***************************STADEM******************************/
  
 .image-stade {
@@ -102,6 +104,7 @@ button {
     margin-bottom: 1%;
 
  }
+
     
  
  
@@ -117,7 +120,6 @@ button {
     display: flex ;
     flex-direction: column;
     justify-content: center;
-    margin-bottom: 20px;
 }
 .container-groupe {
     height: 10vh;
@@ -189,7 +191,6 @@ align-items: center ;
     display: flex;
     flex-direction: column;
     margin: 3% 5% 3% 5%;
-
 }
 
 .container-calendrier ul li {
@@ -201,16 +202,38 @@ align-items: center ;
     justify-content: center;
     align-items: center;
     font-weight: bold;
-
+    
 }
+/*********************CALENDRIER GROUPE***********************/
 
+.calendrier-groupe ul {
+    background-color: #4E0101;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-around;
+    height: 70vh;
+    margin: 2% 5% 2% 5%;
+}
+.calendrier-groupe ul li{
+    background-image:linear-gradient(rgba(255, 255, 255, 0.6), rgba(255,255,255,0.6)), url(/assets/bgGrisMetal.jpg);
+    opacity: 1;
+    border:silver solid 2px;
+    font-weight: bolder;
+    padding: 2% 2% 2% 2%;
+    text-align: center;
+    width: 80%;
+    
+
+
+ 
+}
 /********************FOOTER MOBIL*******************************/
 footer {
     display: flex;
     align-items: center;
     height: auto;
     flex-wrap: wrap;
-    margin-bottom: 0;
     justify-content: space-between;
 }
 footer ul {
@@ -226,16 +249,18 @@ color:#0993CD;
 font-size: 16px;
 font-weight: bold;
 }
+footer ul li a {
+    color:#0993CD;
+}
 
 footer .reseaux {
-    width: 80px;
+    width: 25%;
     display: flex;
     justify-content: flex-end;
     height: 3vh;
-    margin-right: 5px;
 }
 iconify-icon {
-    margin-right: 10px;
+    margin-right: 10%;
 
 }
 /************************FIN FOOTER MOBIL*******************/
