@@ -256,6 +256,88 @@ align-items: center ;
 .container8 ul li a {
     color: black;
 }
+/******************Calendrier mobil quart***************/
+.calendrier-quart ul {
+    background-color: #4E0101;
+    margin: 5% 5% 7% 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    box-shadow: 9px 16px 18px -2px rgba(0,0,0,1);
+
+}
+.calendrier-quart ul li {
+    background-image:linear-gradient(rgba(255, 255, 255, 0.6), rgba(255,255,255,0.6)), url(/assets/bgGrisMetal.jpg);
+    opacity: 1;
+    width: 80%;
+    margin: 5% 3% 5% 3%;
+    font-size: 20px;
+    font-weight: bolder;
+    padding: 3% 3% 3% 2%;
+
+}
+/*********************Calendrier mobil demi**********************/
+.calendrier-demi ul {
+    background-color: #4E0101;
+    margin: 5% 5% 5% 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    box-shadow: 9px 16px 18px -2px rgba(0,0,0,1);
+
+}
+.calendrier-demi ul li {
+    background-image:linear-gradient(rgba(255, 255, 255, 0.6), rgba(255,255,255,0.6)), url(/assets/bgGrisMetal.jpg);
+    opacity: 1;
+    width: 80%;
+    margin: 20% 3% 10% 3%;
+    font-size: 20px;
+    font-weight: bolder;
+    padding: 5% 2% 5% 2%;
+
+}
+.calendrier-demi ul li p{
+    margin: 5% 2% 5% 2%;
+}
+/******************MENU BURGER**********************************/
+.invisible{
+    display: none;
+
+}
+.visible {
+    position: fixed;
+    background-image:linear-gradient(rgba(255, 255, 255, 0.6), rgba(255,255,255,0.6)), url(/assets/bgGrisMetal.jpg);
+    opacity: 1;
+    width: 75%;
+    height: 75%;
+    display:flex ;
+    align-items: center;
+    margin-top: 25%;
+    border:solid 2px;
+    border-color: #4E0101;
+    border-left: none;
+}
+.visible ul{
+    display: flex;
+flex-direction: column;
+align-items: center;
+height: 75%;
+width: 75%;
+
+}
+.visible ul li{
+    font-size: x-large;
+    margin:10% 4% ;
+    padding: 0% 3% 0% 5%
+}
+.visible ul li a{
+    color: #0993CD;
+    font-weight: bolder;
+
+}
+
 /********************FOOTER MOBIL*******************************/
 footer {
     display: flex;
