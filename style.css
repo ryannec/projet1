@@ -13,7 +13,7 @@ body {
     flex-direction: column;
 justify-content: space-between;}
 header, footer {
-   background-image:linear-gradient(rgba(255, 255, 255, 0.6), rgba(255,255,255,0.6)), url(/assets/bgGrisMetal.jpg);
+   background-image:linear-gradient(rgba(255, 255, 255, 0.6), rgba(255,255,255,0.6)), url(/bgGrisMetal.jpg);
    opacity: 1;
    /****************************** HEADER MOBIL ***************************************/
 }
@@ -47,7 +47,7 @@ nav {
 /*********************FIN HEADER MOBIL**************************/
 /*********************STADE MOBIL*******************************/
 .titre {
-    background-image:linear-gradient(rgba(255, 255, 255, 0.6), rgba(255,255,255,0.6)), url(/assets/bgGrisMetal.jpg);
+    background-image:linear-gradient(rgba(255, 255, 255, 0.6), rgba(255,255,255,0.6)), url(/bgGrisMetal.jpg);
     opacity: 1;
     display: flex;
     justify-content: center;
@@ -59,7 +59,7 @@ nav {
 
 }
 .titre-page {
-    background-image:linear-gradient(rgba(255, 255, 255, 0.6), rgba(255,255,255,0.6)), url(/assets/bgGrisMetal.jpg);
+    background-image:linear-gradient(rgba(255, 255, 255, 0.6), rgba(255,255,255,0.6)), url(/bgGrisMetal.jpg);
     opacity: 1;
     color: #0993CD;
     padding: 0% 0% 0% 0%;
@@ -89,7 +89,7 @@ justify-content: center ;
 
 }
 .container-stade ul li {
-    background-image:linear-gradient(rgba(255, 255, 255, 0.6), rgba(255,255,255,0.6)), url(/assets/bgGrisMetal.jpg);
+    background-image:linear-gradient(rgba(255, 255, 255, 0.6), rgba(255,255,255,0.6)), url(/bgGrisMetal.jpg);
     opacity: 1;
     width: 70%;
     margin: 2% 3% 2% 3%;
@@ -115,7 +115,7 @@ justify-content: center ;
     margin: 2% 0% 1% 0%;
  }
  article {
-    background-image:linear-gradient(rgba(255, 255, 255, 0.6), rgba(255,255,255,0.6)), url(/assets/bgGrisMetal.jpg);
+    background-image:linear-gradient(rgba(255, 255, 255, 0.6), rgba(255,255,255,0.6)), url(/bgGrisMetal.jpg);
     opacity: 1;
     text-align: center;
     margin: 2% 8% 2% 8%;
@@ -195,7 +195,7 @@ align-items: center ;
 
 }
 .container-palmares ul li {
-    background-image:linear-gradient(rgba(255, 255, 255, 0.6), rgba(255,255,255,0.6)), url(/assets/bgGrisMetal.jpg);
+    background-image:linear-gradient(rgba(255, 255, 255, 0.6), rgba(255,255,255,0.6)), url(/bgGrisMetal.jpg);
     opacity: 1;
     width: 70%;
     margin: 1% 2% 1% 2%;
@@ -233,7 +233,7 @@ align-items: center ;
 }
 
 .container-calendrier ul li {
-    background-image:linear-gradient(rgba(255, 255, 255, 0.6), rgba(255,255,255,0.6)), url(/assets/bgGrisMetal.jpg);
+    background-image:linear-gradient(rgba(255, 255, 255, 0.6), rgba(255,255,255,0.6)), url(/bgGrisMetal.jpg);
     opacity: 1;
     padding: 2% 3% 2% 3%;
     margin: 3% 5% 2% 5%;
@@ -259,7 +259,7 @@ align-items: center ;
     
 }
 .calendrier-groupe ul li{
-    background-image:linear-gradient(rgba(255, 255, 255, 0.6), rgba(255,255,255,0.6)), url(/assets/bgGrisMetal.jpg);
+    background-image:linear-gradient(rgba(255, 255, 255, 0.6), rgba(255,255,255,0.6)), url(/bgGrisMetal.jpg);
     opacity: 1;
     border:silver solid 2px;
     font-weight: bolder;
@@ -279,7 +279,7 @@ align-items: center ;
 
 }
 .container8 ul li {
-    background-image:linear-gradient(rgba(255, 255, 255, 0.6), rgba(255,255,255,0.6)), url(/assets/bgGrisMetal.jpg);
+    background-image:linear-gradient(rgba(255, 255, 255, 0.6), rgba(255,255,255,0.6)), url(/bgGrisMetal.jpg);
     opacity: 1;
     width: 80%;
     margin: 2% 3% 2% 3%;
@@ -303,7 +303,7 @@ align-items: center ;
 
 }
 .calendrier-quart ul li {
-    background-image:linear-gradient(rgba(255, 255, 255, 0.6), rgba(255,255,255,0.6)), url(/assets/bgGrisMetal.jpg);
+    background-image:linear-gradient(rgba(255, 255, 255, 0.6), rgba(255,255,255,0.6)), url(/bgGrisMetal.jpg);
     opacity: 1;
     width: 80%;
     margin: 5% 3% 5% 3%;
@@ -324,7 +324,7 @@ align-items: center ;
 
 }
 .calendrier-demi ul li {
-    background-image:linear-gradient(rgba(255, 255, 255, 0.6), rgba(255,255,255,0.6)), url(/assets/bgGrisMetal.jpg);
+    background-image:linear-gradient(rgba(255, 255, 255, 0.6), rgba(255,255,255,0.6)), url(/bgGrisMetal.jpg);
     opacity: 1;
     width: 80%;
     margin: 20% 3% 10% 3%;
@@ -343,7 +343,7 @@ align-items: center ;
 }
 .visible {
     position: fixed;
-    background-image:linear-gradient(rgba(255, 255, 255, 0.6), rgba(255,255,255,0.6)), url(/assets/bgGrisMetal.jpg);
+    background-image:linear-gradient(rgba(255, 255, 255, 0.6), rgba(255,255,255,0.6)), url(/bgGrisMetal.jpg);
     opacity: 1;
     width: 75%;
     height: 75%;
