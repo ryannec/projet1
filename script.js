@@ -7,6 +7,6 @@ let grandLogo = document.querySelector(".grandlogo")
 let body = document.querySelector("body");
 
 if(body.width > "600px"){
-grandLogo.src = "/assets/image d'accueil.jpg";
+grandLogo.src = "image d'accueil.jpg";
 body.style.backgroundColor = "blue";
 }
