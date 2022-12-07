@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2? family= Rubik & family= Zen+Dots & display=swap');
 
 * {
   margin: 0;
@@ -12,6 +13,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  font-family:Arial, Helvetica, sans-serif;
 }
 header,
 footer {
@@ -21,6 +23,7 @@ footer {
     ),
     url(bgGrisMetal.jpg);
   opacity: 1;
+  font-family : 'Zen Dots', cursive ;
   /****************************** HEADER MOBIL ***************************************/
 }
 header {
@@ -162,7 +165,6 @@ aside {
 .fond {
   width: 100%;
   height: auto;
-  text-align: center;
 }
 
 .grandlogo2 {
@@ -261,9 +263,10 @@ aside {
 }
 /*********************CALENDRIER MOBIL**************************/
 .container-calendrier {
-  height: auto;
+  height: 75vh;
   margin-bottom: 2%;
   font-size: 2vh;
+
 }
 .container-calendrier ul {
   background: #b22f47;
@@ -285,7 +288,7 @@ aside {
   display: flex;
   flex-direction: column;
   margin: 3% 5% 0% 5%;
-  height: auto;
+  height: 73vh;
 }
 
 .container-calendrier ul li {
@@ -296,11 +299,12 @@ aside {
     url(bgGrisMetal.jpg);
   opacity: 1;
   padding: 1% 3% 1% 3%;
-  margin: 1% 5% 1% 5%;
+  margin: 2% 5% 2% 5%;
   display: flex;
   justify-content: center;
   align-items: center;
   color: black;
+  height: 4vh;
 }
 .container-calendrier ul li a {
   font-weight: 900;
@@ -489,6 +493,8 @@ aside {
 /******************MENU BURGER**********************************/
 .invisible {
   display: none;
+  transform: scale(0);
+
 }
 .visible {
   position: fixed;
@@ -506,6 +512,8 @@ aside {
   border: solid 2px;
   border-color: #4e0101;
   border-left: none;
+ transform: scale(1) ;
+ transition-duration: 1.5s;
 }
 .visible ul {
   display: flex;
@@ -890,5 +898,7 @@ iconify-icon {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 2%;
+  margin-bottom: 2%;
 }
 }
