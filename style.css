@@ -140,7 +140,7 @@ button {
   justify-content: center;
   margin: 2% 0% 1% 0%;
 }
-article {
+aside {
   background-image: linear-gradient(
       rgba(255, 255, 255, 0.6),
       rgba(255, 255, 255, 0.6)
@@ -151,6 +151,7 @@ article {
   margin: 2% 8% 2% 8%;
   padding: 2% 2% 2% 2%;
   height: auto;
+  font-size: 4vw;
 }
 .iframes {
   height: 10%;
@@ -189,6 +190,7 @@ article {
 .container-groupe ul li {
   display: flex;
   align-items: center;
+  padding-bottom: 1%;
 }
 .container-groupe ul li p {
   display: none;
@@ -347,7 +349,7 @@ article {
   width: 80%;
 }
 /******************Calendrier 8ème de finale************/
-.container8 ul {
+.containerhuitième ul {
     background: #b22f47;
     background: radial-gradient(
       ellipse farthest-corner at center center,
@@ -371,7 +373,7 @@ article {
   text-align: center;
   box-shadow: 9px 16px 18px -2px rgba(0, 0, 0, 1);
 }
-.container8 ul li {
+.containerhuitième ul li {
   background-image: linear-gradient(
       rgba(255, 255, 255, 0.6),
       rgba(255, 255, 255, 0.6)
@@ -384,7 +386,7 @@ article {
   font-weight: bold;
   padding: 2% 2% 2% 2%;
 }
-.container8 ul li a {
+.containerhuitième ul li a {
   color: black;
 }
 /******************Calendrier mobil quart***************/
@@ -648,7 +650,7 @@ iconify-icon {
     flex-wrap: wrap;
   }
   .container-groupe {
-    width: 22%;
+    width: 23%;
     height: 37vh;
     display: flex;
     flex-direction: column;
@@ -657,7 +659,6 @@ iconify-icon {
   span {
     height: 15vh;
     font-size: 1rem;
-    margin-bottom: 2%;
   }
   .container-groupe ul {
     display: flex;
@@ -695,7 +696,7 @@ iconify-icon {
     margin-left: 2%;
   }
   .container-groupe ul li p {
-    font-size: 1.3rem;
+    font-size: 3.5vh;
     font-weight: bolder;
     margin-right: 7%;
     display: flex;
@@ -754,19 +755,12 @@ iconify-icon {
     width: 100%;
     height: auto;
   }
-  /* .stade-mini:{
-    cursor: zoom-in;
-  }
-  .stade-maxi:{
-    cursor: zoom-out;
-    display: none; */
-  }
-  article {
+  aside {
     margin: 0;
     padding: 0;
     height: auto;
     width: 61%;
-    font-size: 1.5vw;
+    font-size: 1.2vw;
   }
   .iframes {
     width: 100%;
@@ -782,7 +776,7 @@ iconify-icon {
   .container-calendrier {
     display: none;
   }
-  .container8 {
+  .containerhuitième{
     display: none;
   }
   .calendrier-quart {
@@ -813,11 +807,6 @@ iconify-icon {
     align-items: center;
     box-shadow: 10px 10px 28px -2px rgba(0, 0, 0, 1);
   }
-  .calendrier-desktop {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
   tbody {
     width: 80%;
     height: 60vh;
@@ -839,7 +828,6 @@ iconify-icon {
   tr {
     color: white;
     display: flex;
-    /* border: solid green; */
     width: 100%;
     height: 12vh;
     justify-content: space-between;
@@ -891,9 +879,6 @@ iconify-icon {
     height: 24vh;
     font-size: 1vw;
   }
-  .horaires2 th {
-    /* border: solid pink 1px; */
-  }
   tr.horaire {
     height: 12vh;
     /* border: solid black 7px; */
@@ -901,6 +886,9 @@ iconify-icon {
 .calendrier-demi{
     display: none;
 }  
-
-
+.calendrier-desktop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 }
